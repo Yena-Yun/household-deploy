@@ -3,38 +3,41 @@
 
 참고사이트: 조종훈 님 블로그 <br/>
 https://chojonghoon.github.io/react/report/household/report-household/ <br/>
-(블로그에서는 타입스크립트도 사용. 추후 공부 후 추가할 예정)<br/>
+(타입스크립트 부분은 공부한 후 추가 예정)<br/>
+
+<img src="https://i.esdrop.com/d/KwrGH1p1Zl/hGLXhRS88d.png" width="450" height="auto">
 
 ---
 ## 요구사항
-1. 빨강색 박스의 내용 계산
-  * 개수 : 날짜별 구입한 물건의 수
-  * 총 지출 : 날짜별 품목 가격의 합
-  * 잔액 : 날짜별 수입 - 총 지출
-    > 단, 잔액이 마이너스일 경우 2019/12/03일의 경우처럼 빨강색으로 [적자]라는 표시와 금액을 표시할 것)
-2. 기타
-  * 금액란은 천원단위 편집
-  * 각 항목은 예시 화면처럼 정렬(중앙, 좌측, 우측)
-  * 날짜별로 구입처별 내림차별 정렬하여 표시(데이터는 무작위 입력)<br/>
+1. 지출항목(Expense) 계산
+  * 지출항목수 : 날짜별 구입한 물건의 수
+  * 총지출 : 날짜별 지출금액의 합
+  * 잔액 : 수입 - 총지출
+    > 잔액이 마이너스인 경우 - 빨강색으로 금액 표기, 앞에 [적자] 표시)
+2. 날짜별, 구입처별 내림차순 정렬
+3. 기타
+  * 금액란 : 천원단위 편집(formatMoney)
+  * 지출항목별 번호 : 로마숫자(formatRoman)
  
  
 ---
-## 구현기능
-1. 잔액 마이너스일 경우 빨간색으로 [적자] 표시
-2. 날짜별 구입처별 내림차순 정렬
-3. 우측에 Form 추가 (css로 2단 화면 구현)
-4. Form을 통해 날짜별 가계부 추가 기능
-5. 각 지출항목에 hover 시 삭제 기능
-6. 수입란 클릭 시 수입 수정 기능
-7. local storage 연동<br/>
+## 기존 구현기능
+1. Form 입력란 추가(@material-ui의 MuiPickersUtilsProvider)
+2. 2단 화면 구현(부모 display: flex, 자식 각각 flex: 1)
+3. 각 지출항목 삭제
+4. 수입영역의 아이콘 클릭 시 수입 수정
+5. local storage 연동<br/>
 
 ---
-## 컴포넌트 구분
-<img src="https://i.esdrop.com/d/KwrGH1p1Zl/v5nSLzxOqX.png" width="350" height="auto"> <br/>
-1. Household(빨간색) : 전체 컨테이너
-2. Daily(주황색) : 날짜별 수입 및 지출내역
-3. Expense(보라색) : 같은 날짜 내의 하나의 지출항목<br/>
+## 내가 추가한 기능
+1. 전체적인 디자인 수정
+2. 수입수정 아이콘 - 색깔과 크기 조정(props 검색)
+3. 전체 폰트 변경(구글폰트 Nanum Gothic Coding)
+4. 좌측의 Form 영역을 fixed로 고정
 
 ---
-## 완성본
-<img src="https://i.esdrop.com/d/KwrGH1p1Zl/Yb6jTbLH3M.png" width="500" height="auto">
+## 추가 예정 기능
+1. 해당 날짜의 가계부 전체 삭제(- 날짜에 hover 아이콘)
+2. 정렬 버튼을 따로 만들어서 가계부 전체를 내림차순 또는 오름차순 정렬
+
+
