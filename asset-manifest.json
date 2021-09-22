@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/household-deploy/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/household-deploy/static/js/main.4f49df54.chunk.js",
+    "main.js.map": "/household-deploy/static/js/main.4f49df54.chunk.js.map",
+    "runtime-main.js": "/household-deploy/static/js/runtime-main.174cc4fe.js",
+    "runtime-main.js.map": "/household-deploy/static/js/runtime-main.174cc4fe.js.map",
+    "static/js/2.b4db51f0.chunk.js": "/household-deploy/static/js/2.b4db51f0.chunk.js",
+    "static/js/2.b4db51f0.chunk.js.map": "/household-deploy/static/js/2.b4db51f0.chunk.js.map",
+    "static/js/3.99f3355c.chunk.js": "/household-deploy/static/js/3.99f3355c.chunk.js",
+    "static/js/3.99f3355c.chunk.js.map": "/household-deploy/static/js/3.99f3355c.chunk.js.map",
+    "index.html": "/household-deploy/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/household-deploy/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b4db51f0.chunk.js.LICENSE.txt": "/household-deploy/static/js/2.b4db51f0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.174cc4fe.js",
+    "static/js/2.b4db51f0.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.4f49df54.chunk.js"
+  ]
+}
