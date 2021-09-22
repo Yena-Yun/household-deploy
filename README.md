@@ -1,7 +1,6 @@
 # Household
-리액트 가계부 만들기 <br/>
 
-참고사이트: 조종훈 님 블로그 <br/>
+참고사이트: 가계부 만들기 블로그 <br/>
 https://chojonghoon.github.io/react/report/household/report-household/ <br/>
 (타입스크립트 부분은 공부한 후 추가 예정)<br/>
 
