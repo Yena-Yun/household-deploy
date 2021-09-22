@@ -5,7 +5,8 @@
 https://chojonghoon.github.io/react/report/household/report-household/ <br/>
 (타입스크립트 부분은 공부한 후 추가 예정)<br/>
 
-<img src="https://i.esdrop.com/d/KwrGH1p1Zl/hGLXhRS88d.png" width="450" height="auto">
+## 구현화면
+<img src="https://i.esdrop.com/d/KwrGH1p1Zl/hGLXhRS88d.png" width="500" height="auto">
 
 ---
 ## 요구사항
